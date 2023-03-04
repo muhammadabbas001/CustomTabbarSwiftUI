@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		04CAEF5929B3029B00A4FB62 /* CustomTabbarSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF5829B3029B00A4FB62 /* CustomTabbarSwiftUIApp.swift */; };
-		04CAEF5B29B3029B00A4FB62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF5A29B3029B00A4FB62 /* ContentView.swift */; };
+		04CAEF5B29B3029B00A4FB62 /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF5A29B3029B00A4FB62 /* MainTabbedView.swift */; };
 		04CAEF5D29B3029D00A4FB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAEF5C29B3029D00A4FB62 /* Assets.xcassets */; };
 		04CAEF6029B3029D00A4FB62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAEF5F29B3029D00A4FB62 /* Preview Assets.xcassets */; };
 		04CAEF6A29B3029E00A4FB62 /* CustomTabbarSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF6929B3029E00A4FB62 /* CustomTabbarSwiftUITests.swift */; };
 		04CAEF7429B3029E00A4FB62 /* CustomTabbarSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF7329B3029E00A4FB62 /* CustomTabbarSwiftUIUITests.swift */; };
 		04CAEF7629B3029E00A4FB62 /* CustomTabbarSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF7529B3029E00A4FB62 /* CustomTabbarSwiftUIUITestsLaunchTests.swift */; };
+		04CAEF8929B304E600A4FB62 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF8829B304E600A4FB62 /* HomeView.swift */; };
+		04CAEF8B29B3051600A4FB62 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF8A29B3051600A4FB62 /* FavoriteView.swift */; };
+		04CAEF8D29B3053B00A4FB62 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF8C29B3053B00A4FB62 /* ChatView.swift */; };
+		04CAEF8F29B3055000A4FB62 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAEF8E29B3055000A4FB62 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		04CAEF5529B3029B00A4FB62 /* CustomTabbarSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabbarSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAEF5829B3029B00A4FB62 /* CustomTabbarSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarSwiftUIApp.swift; sourceTree = "<group>"; };
-		04CAEF5A29B3029B00A4FB62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04CAEF5A29B3029B00A4FB62 /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
 		04CAEF5C29B3029D00A4FB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CAEF5F29B3029D00A4FB62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04CAEF6529B3029E00A4FB62 /* CustomTabbarSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		04CAEF6F29B3029E00A4FB62 /* CustomTabbarSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabbarSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CAEF7329B3029E00A4FB62 /* CustomTabbarSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarSwiftUIUITests.swift; sourceTree = "<group>"; };
 		04CAEF7529B3029E00A4FB62 /* CustomTabbarSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04CAEF8829B304E600A4FB62 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04CAEF8A29B3051600A4FB62 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		04CAEF8C29B3053B00A4FB62 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		04CAEF8E29B3055000A4FB62 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,8 @@
 		04CAEF5729B3029B00A4FB62 /* CustomTabbarSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				04CAEF5829B3029B00A4FB62 /* CustomTabbarSwiftUIApp.swift */,
-				04CAEF5A29B3029B00A4FB62 /* ContentView.swift */,
+				04CAEF8329B3048200A4FB62 /* Base */,
+				04CAEF8229B3047900A4FB62 /* Main */,
 				04CAEF5C29B3029D00A4FB62 /* Assets.xcassets */,
 				04CAEF5E29B3029D00A4FB62 /* Preview Content */,
 			);
@@ -125,6 +133,58 @@
 				04CAEF7529B3029E00A4FB62 /* CustomTabbarSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = CustomTabbarSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		04CAEF8229B3047900A4FB62 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04CAEF5A29B3029B00A4FB62 /* MainTabbedView.swift */,
+				04CAEF8429B3048A00A4FB62 /* Home */,
+				04CAEF8629B3049600A4FB62 /* Favorite */,
+				04CAEF8529B3049000A4FB62 /* Chat */,
+				04CAEF8729B304A100A4FB62 /* Profile */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04CAEF8329B3048200A4FB62 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04CAEF5829B3029B00A4FB62 /* CustomTabbarSwiftUIApp.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04CAEF8429B3048A00A4FB62 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04CAEF8829B304E600A4FB62 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04CAEF8529B3049000A4FB62 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				04CAEF8C29B3053B00A4FB62 /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		04CAEF8629B3049600A4FB62 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				04CAEF8A29B3051600A4FB62 /* FavoriteView.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		04CAEF8729B304A100A4FB62 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04CAEF8E29B3055000A4FB62 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CAEF5B29B3029B00A4FB62 /* ContentView.swift in Sources */,
+				04CAEF8B29B3051600A4FB62 /* FavoriteView.swift in Sources */,
+				04CAEF8929B304E600A4FB62 /* HomeView.swift in Sources */,
+				04CAEF8D29B3053B00A4FB62 /* ChatView.swift in Sources */,
+				04CAEF5B29B3029B00A4FB62 /* MainTabbedView.swift in Sources */,
+				04CAEF8F29B3055000A4FB62 /* ProfileView.swift in Sources */,
 				04CAEF5929B3029B00A4FB62 /* CustomTabbarSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

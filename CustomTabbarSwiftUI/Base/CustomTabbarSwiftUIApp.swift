@@ -11,7 +11,7 @@ import SwiftUI
 struct CustomTabbarSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabbedView()
         }
     }
 }
